@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+body {
+  font-family: lato, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffff;
+}
+.container {
+  height: 600px;
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+.login-side {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/river.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+.login-side img {
+  width: 100%;
+}
+.login-side h1 {
+  width: 400px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.login-side .text {
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sign-side {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.sign-container {
+  padding: 50px;
+}
+.sign-container small {
+  margin: 10px 0;
+  display: inline-block;
+}
+.google_logo {
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background: #ffff;
+  padding: 5px 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.google_logo img {
+  width: 50px;
+  height: auto;
+}
+/* button */
+
+.btn {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+.btn-login {
+  padding: 20px 50px;
+  background-color: seagreen;
+  color: #ffff;
+  display: inline-block;
+}
+.btn-sign {
+  padding: 10px 70px;
+  background-color: seagreen;
+  border-radius: 5px;
+  color: #ffff;
+  text-transform: uppercase;
+}
+
+/* FORM */
+.form small {
+  display: block;
+  margin-top: 10px;
+}
+.form small a {
+  color: seagreen;
+}
+.form-control input {
+  width: 100%;
+  border: 0;
+  background-color: #ecf0f1;
+  border-radius: 2px;
+  outline: 0;
+  padding: 15px;
+}
+.form-control {
+  margin: 15px 0;
+}
